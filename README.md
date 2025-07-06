@@ -29,4 +29,6 @@ Já a terceira hipótese foi confirmada. Apesar de ter sido montado um modelo si
 
 - Scikit-learn para pré-processamento, modelagem e avaliação.
 
+- SciPy para avaliação de outliers.
+
 - GoogleColab como ambiente de desenvolvimento.
