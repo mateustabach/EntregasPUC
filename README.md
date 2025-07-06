@@ -2,6 +2,7 @@
 Este projeto realiza uma análise de dados sobre a produção de energia renovável (solar, eólica, hidrelétrica e outras não especificadas) em dez países ao longo do século XXI. O objetivo é investigar tendências de crescimento, o comportamento da diversificação da matriz energética e a viabilidade de se criar modelos preditivos com base em dados históricos.
 
 **Hipóteses Investigadas**
+
 O trabalho foi estruturado em torno de três hipóteses centrais:
 
 1 - "A produção de energia solar e eólica aumentou de forma mais acelerada do que a hidrelétrica."
@@ -11,13 +12,13 @@ O trabalho foi estruturado em torno de três hipóteses centrais:
 3 - "É possível prever as tendências de produção de energia renovável com base em dados históricos."
 
 **Principais Descobertas**
-A análise revelou insights complexos e, por vezes, contraintuitivos:
+As 3 hipóteses foram testadas. 
 
-Crescimento vs. Anomalia nos Dados (Hipótese 1): A análise visual demonstrou um crescimento massivo e inegável da produção de energia solar e eólica por mais de 20 anos. No entanto, uma queda acentuada e anômala nos dados agregados após 2020 fez com que uma análise puramente matemática de ponta a ponta (ano 2000 vs. 2023) indicasse um resultado negativo. A hipótese, portanto, é parcialmente refutada, revelando uma história de crescimento expressivo interrompida por uma peculiaridade nos dados mais recentes.
+A primeira foi parcialmente refutada, já que a análise dos dados, apesar de apontar um crescimento forte das fontes eólica e solar, tem, em 2020, o início de uma queda brusca, trazendo as fontes de volta a níveis de geração próximos aos iniciais.
 
-O Mito da Diversificação (Hipótese 2): A hipótese de que países desenvolvidos diversificam mais sua matriz foi refutada. A análise, através de um Índice de Diversificação criado para o projeto, mostrou que países em desenvolvimento como China e Brasil possuem uma matriz energética renovável mais equilibrada do que nações desenvolvidas como Reino Unido e Canadá, que demonstram alta dependência de poucas fontes.
+A segunda foi refutada. Uma vez que o Brasil aparece entre os 2 países com a matriz mais diverisificada, ao lado da China, enquanto Canadá, Reino Unido e Alemanha estão entre as matrizes mais homogêneas, essa hipótese caiu por terra. 
 
-Viabilidade da Previsão (Hipótese 3): A hipótese foi validada. Um modelo de Regressão Linear de baseline foi capaz de prever a produção total de energia com uma performance razoável (R² ≈ 0.51), confirmando que os dados históricos possuem valor preditivo e que a modelagem é uma ferramenta viável para estimar tendências futuras.
+Já a terceira hipótese foi confirmada. Apesar de ter sido montado um modelo simples, é possível fazer um modelo de predição a partir dos dados históricos de geração de energia.
 
 **Ferramentas Utilizadas**
 - Python
